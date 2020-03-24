@@ -20,9 +20,7 @@ function formattedDate(){
 //Adds a new chore log for garbage for:
 //Rob
 function robAddGarb(){
-var textNode = document.createTextNode(formattedDate());
-var oldDate = document.getElementById("robGarb1").childNodes[0];
-oldDate.replaceChild(textNode, oldDate.childNodes[0]);
+
 }
 //Alex
 function aleAddGarb(){
